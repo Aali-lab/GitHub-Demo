@@ -39,6 +39,7 @@ public class CartCheckoutPage extends AbstractComponent {
 		Actions a = new Actions(driver);
         a.sendKeys(inputCountry,countryName).build().perform();
         waitForElementToAppear(results);
+        System.out.println("Adding comments to test git");
         selectCountry.click();
 	}
 	

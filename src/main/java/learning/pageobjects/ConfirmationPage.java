@@ -24,9 +24,12 @@ import learning.abstractComponents.AbstractComponent;
 		public String getConfirmationMessage() {
 			
 			return confirmationMessage.getText();
-                       System.out.println("Just doing some change");
-                       System.out.println("Just doing some change2");
 
+		}
+		
+		public void randomMethod() {
+			
+			System.out.println("Adding comments to test git");
 		}
 		
 }

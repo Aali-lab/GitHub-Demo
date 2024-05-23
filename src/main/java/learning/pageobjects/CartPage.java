@@ -38,6 +38,7 @@ public class CartPage extends AbstractComponent {
 	
 	public CartCheckoutPage goToCheckout() {
 		checkOutElement.click();
+		System.out.println("Adding comments to test git");
 		CartCheckoutPage cartCheckout=new CartCheckoutPage(driver);
 		return cartCheckout;
 		

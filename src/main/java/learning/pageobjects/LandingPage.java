@@ -40,5 +40,9 @@ public class LandingPage extends AbstractComponent {
 		
 		driver.get("https://rahulshettyacademy.com/client/");
 	}
+	public void randomMethod() {
+		
+		System.out.println("Adding comments to test git");
+	}
 }
 

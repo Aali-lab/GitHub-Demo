@@ -53,6 +53,10 @@ public class ProductCatalogue extends AbstractComponent {
 		
 		
 	}
+	public void randomMethod() {
+		
+		System.out.println("Adding comments to test git");
+	}
 	
 	
 	
