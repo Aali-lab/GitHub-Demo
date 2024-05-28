@@ -40,6 +40,7 @@ public class CartPage extends AbstractComponent {
 		checkOutElement.click();
 		System.out.println("Adding comments to test git");
 		CartCheckoutPage cartCheckout=new CartCheckoutPage(driver);
+                System.out.println("Commit in new branch");
 		return cartCheckout;
 		
 		

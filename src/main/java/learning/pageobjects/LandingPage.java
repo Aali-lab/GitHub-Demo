@@ -43,6 +43,7 @@ public class LandingPage extends AbstractComponent {
 	public void randomMethod() {
 		
 		System.out.println("Adding comments to test git");
+                System.out.println("Commit in new branch");
 	}
 }
 

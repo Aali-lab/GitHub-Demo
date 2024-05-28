@@ -47,6 +47,7 @@ public class CartCheckoutPage extends AbstractComponent {
 		
 		submit.click();
 		ConfirmationPage confrmPage= new ConfirmationPage(driver);
+                System.out.println("Commit in new branch");
 		return confrmPage;
 		
 	}
